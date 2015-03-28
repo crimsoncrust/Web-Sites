@@ -30,15 +30,14 @@ header {
 
 .mylocation {
  	position: relative;
-	left: 620px;
-	width: 200px;
-	bottom:250px;
+	left: 680px;
+	bottom:230px;
 }
 
 .mylocation ul {
 	position:relative;
-	right:20px;
 	list-style-type:none;
+	left:-30px;
 }
 
 nav {
@@ -58,6 +57,27 @@ nav li {
 	color:white;
 }
 
+#ftw {
+	position: relative;
+	width: 200px;
+	bottom:280px;
+	padding-top:240px;
+	left:-640px;
+}
+
+#ftw ul {
+	padding-top:50px;
+	position:relative;
+	left:2px;
+	list-style-type:none;
+	width:25
+}
+#ftw li{
+	display:inline-block;
+	margin-left:10px;
+}
+
+
 #headerimage{
 	float:left;
 	clear:both;
@@ -66,8 +86,9 @@ nav li {
 
 #spacing {
 	clear:both;
-	padding-top:10px;
 	margin-left:80px;
+	margin-top:5px;
+	margin-bottom:50px;
 }
 
 .margintop {
@@ -82,9 +103,14 @@ nav li {
 	width:200px;
 	background-color:hsla(1, 77%, 40%, 1);
 	height:auto;
-	padding-bottom:5px;
+	padding-bottom:20px;
 	margin-top:0;
 	
+}
+
+.moveme li {
+	border-top:1px solid white;
+	border-bottom:1px solid white;
 }
 
 .smalltext {
@@ -93,7 +119,7 @@ nav li {
 }
 
 h1 {
-	margin-left:80px;
+	margin-left:100px;
 }
 
 h2 {
@@ -106,7 +132,7 @@ h3 {
 }
 
 h4 {
-	margin-left:50px;
+	margin-left:0px;
 }
 
 .indent {
@@ -120,7 +146,7 @@ h4 {
 #tableborder {
 	border-bottom: 1px solid;
 	width:500px;
-	margin-left:80px;
+	margin-left:100px;
 	margin-bottom:20px;
 
 }
@@ -177,7 +203,7 @@ fieldset {
 	border-radius:20px;
 	padding:15px;
 	background-color:white;
-	  box-shadow: 10px 10px 5px #888888;
+	box-shadow: 10px 10px 5px #888888;
 }
 
 #submit {
@@ -189,4 +215,10 @@ fieldset {
 
 #submit:hover {
 	background-color: hsla(265, 0%, 55%, .5);
+}
+
+#joinform {
+	float:left;
+	width:100%;
+	
 }
