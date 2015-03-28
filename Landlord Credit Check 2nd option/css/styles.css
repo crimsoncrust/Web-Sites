@@ -4,7 +4,7 @@ body {
 	font-family: 'Gentium Book Basic', serif;
 	font-size:1em;
 	background-color:hsla(0, 0%, 84%, 1);
-	overflow:auto;
+	
 }
 
 header {
@@ -238,5 +238,5 @@ fieldset {
 }
 
 #moveme {
-	margin-left:80px;
+	margin-left:60px;
 }
