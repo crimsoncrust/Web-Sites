@@ -4,6 +4,7 @@ body {
 	font-family: 'Gentium Book Basic', serif;
 	font-size:1em;
 	background-color:hsla(0, 0%, 84%, 1);
+	overflow:auto;
 }
 
 header {
@@ -128,11 +129,15 @@ h2 {
 }
 
 h3 {
-	margin-left:100px;
+	margin-left:90px;
 }
 
 h4 {
 	margin-left:0px;
+}
+
+.removemargin {
+	margin:0px;
 }
 
 .indent {
@@ -219,6 +224,19 @@ fieldset {
 
 #joinform {
 	float:left;
-	width:100%;
-	
+	width:245px;	
+}
+
+.display {
+	display:inline-block;
+}
+
+#holdcontent {
+	border:1px solid;
+	width: 500px;
+	height:400px;
+}
+
+#moveme {
+	margin-left:80px;
 }
